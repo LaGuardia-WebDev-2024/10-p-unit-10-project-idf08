@@ -1,4 +1,5 @@
 var bakeryLabels = ["Crossiants","Baguettes"];
+var message = "spaceship"
 
 setup = function() {
 
@@ -11,6 +12,19 @@ setup = function() {
   while(crossiantX < 300){
     text("🥐", crossiantX, 85);
     crossiantX += 40;
+
+
+textSize(10);
+    var x = 45
+  while(x < 150) {
+
+text(message, x, 240);
+x += 70;
+  }
+textSize(15)
+text("spaceships", 70, 260)
+
+
   }
 
   textSize(15);
