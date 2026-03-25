@@ -5,7 +5,7 @@ setup = function() {
 
   size(400, 400); 
   background(0,0,0,0);
-
+ ;/// while loop
   var crossiantX = 60;
   textSize(30);
 
@@ -14,6 +14,16 @@ setup = function() {
     crossiantX += 40;
 
 
+;// array
+var myFruit = ["grape", "strawberry", "banana", "Bananas"]
+
+textSize(10);
+text(myFruit[0], 160, 320)
+text(myFruit[1], 190, 320)
+text(myFruit[2], 240, 320)
+text(myFruit[3], 280, 320)
+
+ ;// for loop
 textSize(10);
     var x = 45
   while(x < 150) {
