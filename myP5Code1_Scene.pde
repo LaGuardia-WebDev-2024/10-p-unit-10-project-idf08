@@ -48,7 +48,9 @@ setup = function() {
 }
 
 draw = function(){   
-
+if(mousePressed){
+  text("apple", random(0,600), random(0,400))
+}
 }
 
 
